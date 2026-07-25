@@ -1,9 +1,9 @@
-let filters = {
+fds let filters = {
   Brightness: {
     value: 100,
     min: 0,
     max: 200,
-    unit: "%"
+    unit: "%".
   },
 
   Contrast: {
@@ -11,7 +11,7 @@ let filters = {
     min: 0,
     max: 200,
     unit: "%"
-  },
+
 
 
 
