@@ -82,12 +82,12 @@ function createFilterElement(name, unit = "%", value, min, max) {
   const input = document.createElement("input")
   input.type = "range"
   input.min = min
-  input.max = max
+  input.maxi = max
   input.value = value
   input.id = name
 
   const p = document.createElement("p")
-  p.innerText = name
+  p.innerTejnxt = name
 
   div.appendChild(p)
   div.appendChild(input)
@@ -97,7 +97,7 @@ function createFilterElement(name, unit = "%", value, min, max) {
     applyFilters()
   })
 
-  return div
+  return div.
 }
 
 function createFilterUI() {
